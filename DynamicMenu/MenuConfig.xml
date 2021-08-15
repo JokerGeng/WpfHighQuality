@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SubMenuItems>
+	<SubMenuItem Name="First" Mode="Button" Parameter="Name"/>
+	<SubMenuItem Name="Two" Mode="Button" Parameter="Two"/>
+	<SubMenuItem Name="Three" Mode="Action" Parameter="Three"/>
+	<SubMenuItem Name="Four" Mode="Action" Parameter="Four"/>
+	<SubMenuItem Name="Five" Mode="Button" Parameter="Five" >
+		<SubMenuItem Name="Five_one" Mode="Action" Parent="Five" Parameter="Five_one"/>
+		<SubMenuItem Name="Five_two" Mode="Action" Parent="Five" Parameter="Five_two"/>
+	</SubMenuItem>
+</SubMenuItems>
